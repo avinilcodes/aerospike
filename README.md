@@ -9,7 +9,7 @@
 ## To get packages used in it this project we need 
 #### cd ..
 #### go mod init dir_name_where_the_code_is
-#### code dir_name_where_the_code_is
+#### cd dir_name_where_the_code_is
 #### go mod tidy
 
 ## Now we are good run the program using below command
