@@ -6,8 +6,14 @@
 ## Get aerospike client for Go
 #### go get github.com/aerospike/aerospike-client-go
 
+## To get packages used in it this project we need 
+#### cd ..
+#### go mod init dir_name_where_the_code_is
+#### code dir_name_where_the_code_is
+#### go mod tidy
+
 ## Now we are good run the program using below command
-##### go run <name> -h <host> -p <port> -n <namespace> -s <set>
+#### go run <name> -h <host> -p <port> -n <namespace> -s <set>
 #### go run main.go -h localhost -p 3000 -n test -s myset
 
 
