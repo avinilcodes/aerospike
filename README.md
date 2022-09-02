@@ -13,7 +13,7 @@
 #### go mod tidy
 
 ## Now we are good run the program using below command
-#### go run <name> -h <host> -p <port> -n <namespace> -s <set>
+##### command to use : go run <name> -h <host> -p <port> -n <namespace> -s <set>
 #### go run main.go -h localhost -p 3000 -n test -s myset
 
 
