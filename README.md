@@ -2,7 +2,7 @@
 #### aerospike-server-community
 #### aerospike-tools
 ## To run aerospike locally use this command 
-#### sudo service aerospike start
+#### sudo systemctl start aerospike
 ## Get aerospike client for Go
 #### go get github.com/aerospike/aerospike-client-go
 

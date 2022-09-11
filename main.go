@@ -1,11 +1,16 @@
 package main
 
 import (
-	as "github.com/aerospike/aerospike-client-go"
+	as "github.com/aerospike/aerospike-client-go/v6"
+)
+
+const (
+	Host = "localhost"
+	Port = 3000
 )
 
 func main() {
-	client, err := as.NewClient("127.0.0.1", 3000)
+	client, err := as.NewClient(Host, Port)
 	if err != nil {
 		panic(err)
 	}
