@@ -4,7 +4,7 @@
 ## To run aerospike locally use this command 
 #### sudo systemctl start aerospike
 ## Get aerospike client for Go
-#### go get github.com/aerospike/aerospike-client-go
+#### go get github.com/aerospike/aerospike-client-go/v6
 
 ## To get packages used in it this project we need 
 #### cd ..
